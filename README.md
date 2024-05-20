@@ -19,3 +19,19 @@ Install the following packages to run the project.
 4. Train the model
 5. Evaluate the model
 6. Analyze the importance of each feature in predicting fraud
+# Explanation
+1. Load the data
+   Import the dataset using pandas to manupulate with the data.
+2. Preprocess or clean the data
+   Steps in cleaning the data
+   1. Checking the null values.
+   2. Coverting catogorical to numerical values.
+   3. Removing unwanted features.
+   4. checking and solving the class imbalance.
+3. Split the data into traning and testing sets
+   After the class balancing, with that data spliting into traning and testing X_train, y_train, X_test, y_test
+4. Train the model
+   Random forest model is taken and trained on this dataset.
+5. Evaluate the model
+   Evaluated the trained model by using some evaluation metrics like accuracy, Precison etc
+   The accuracy of this model is 0.992  
